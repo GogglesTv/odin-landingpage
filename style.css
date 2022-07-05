@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 10rem;
+}
+
+div.section1 {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+
