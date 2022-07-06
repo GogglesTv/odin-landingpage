@@ -9,7 +9,7 @@ body {
 
 div.section1 {
     background-color: #1F2937;
-    flex: 1.5;
+    flex: 1;
 }
 
 header {
@@ -90,30 +90,65 @@ div.section2 {
     font-weight: 900;
     color: #1F2937;
     text-align: center;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
 }
 
 .cities {
-    
+    display: flex;
+    justify-content: center;
+    margin: 0 10rem;
 }
 
-div.section3 {
-    flex: 1;
+.city {
+    padding-right: 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cityimg {
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
 }
 
 div.section3 {
     background-color: #E5E7EB;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .quote {
-    font-size: 36px;
+    margin: 0 10rem;
+    font-size: 20px;
     color: #1F2937;
-    font-style: light italic;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quoter {
+    margin: 0 10rem;
+    margin-left: 50%;
 }
 
 footer {
     background-color: #1F2937;
     color:#E5E7EB;
     font-size: 10px;
+    display: flex;
+    justify-content: center;
 }
 
+div.section4 {
+    flex: .5;
+}
+
+.ctacontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
