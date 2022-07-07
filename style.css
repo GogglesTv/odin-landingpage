@@ -117,7 +117,16 @@ div.section2 {
     display: flex;
     flex-direction: column;
     align-content: space-around;
-    
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.city:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    box-shadow: 0px 0px 100px 
+    rgba(0, 0, 0, 0.0);
 }
 
 .atl,
@@ -134,17 +143,6 @@ div.section2 {
 
 .atl {
     background-image: url(./images/downtownATL.jpeg);
-    -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-}
-
-
-.atl:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    box-shadow: 0px 0px 100px
-    rgba(0, 0, 0, 0.2);
 }
 
 .nashville {
@@ -157,6 +155,11 @@ div.section2 {
 
 .montana {
     background-image: url(./images/glacierNP.jpeg);
+}
+
+p {
+    font-size: 25px;
+    font-weight: 500;
 }
 
 div.section3 {
