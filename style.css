@@ -172,6 +172,20 @@ div.section3 {
     min-height: 50vh;
 }
 
+a {
+    text-decoration: none;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.jp:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 100px 
+    rgba(0, 0, 0, 0);
+}
+
 .quote {
     margin: 0 10rem;
     font-size: 36px;
@@ -189,11 +203,6 @@ div.section3 {
     text-decoration: none;
     color: #1F2937
 }
-
-/* .quoter:hover {
-    text-shadow: 0 0 5px
-    rgba(33, 33, 33, .2)
-} */
 
 div.section4 {
     flex: 1;
