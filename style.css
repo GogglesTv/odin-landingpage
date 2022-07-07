@@ -1,15 +1,23 @@
+html{
+    min-height: 100vh;
+}
+
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* margin: 0rem 10rem; */
+}
+
+.h-full {
+    min-height: 100vh;
 }
 
 div.section1 {
     background-color: #1F2937;
     flex: 1;
+    min-height: 50vh;
 }
 
 header {
@@ -17,6 +25,7 @@ header {
     color: #E5E7EB;
     display: flex;
     padding-top: .5rem;
+    
 }
 
 .headl {
@@ -82,7 +91,12 @@ button {
 }
 
 div.section2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
     flex: 1;
+    margin: 0 10rem;
+    min-height: 65vh;
 }
 
 .randinfo {
@@ -90,27 +104,59 @@ div.section2 {
     font-weight: 900;
     color: #1F2937;
     text-align: center;
-    padding: 1.5rem 0;
+    padding: 2rem 0;
 }
 
 .cities {
     display: flex;
-    justify-content: center;
-    margin: 0 10rem;
+    justify-content: space-between;
 }
 
 .city {
-    padding-right: 5rem;
     text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-content: space-around;
+    
 }
 
-.cityimg {
-    height: 100px;
-    width: 100px;
-    border: 1px solid;
+.atl,
+.nashville,
+.sanfran,
+.montana {
+    height: 250px;
+    width: 250px;
+    border: 1px solid #3882F6;
+    border-radius: 5px;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.atl {
+    background-image: url(./images/downtownATL.jpeg);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+
+.atl:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    box-shadow: 0px 0px 100px
+    rgba(0, 0, 0, 0.2);
+}
+
+.nashville {
+    background-image: url(./images/nashville.jpeg);
+}
+
+.sanfran {
+    background-image: url(./images/thebayarea.jpeg);
+}
+
+.montana {
+    background-image: url(./images/glacierNP.jpeg);
 }
 
 div.section3 {
@@ -120,48 +166,59 @@ div.section3 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    min-height: 50vh;
 }
 
 .quote {
     margin: 0 10rem;
-    font-size: 20px;
+    font-size: 36px;
     color: #1F2937;
     font-style: italic;
     font-weight: 200;
+    padding: 20px 0;
 }
 
 .quoter {
+    font-size: 18px;
+    font-weight: 500;
     margin: 0 10rem;
     margin-left: 50%;
+    text-decoration: none;
+    color: #1F2937
 }
 
-footer {
-    background-color: #1F2937;
-    color:#E5E7EB;
-    font-size: 10px;
-    display: flex;
-    justify-content: center;
-}
+/* .quoter:hover {
+    text-shadow: 0 0 5px
+    rgba(33, 33, 33, .2)
+} */
 
 div.section4 {
-    flex: .65;
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 10rem;
+    min-height: 35vh;
 }
 
 .ctacontainer {
     background-color: #3882F6;
     width: 100%;
-    height: 50%;
+    height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 5px;
 }
 
 footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
     flex: .2;
     display: flex;
     align-items: center;
+    min-height: 10vh;
 }
