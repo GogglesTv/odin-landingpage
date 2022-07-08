@@ -17,3 +17,5 @@ Travis Scott 1s
     - Pexels: Erik Mclean https://www.pexels.com/@introspectivedsgn/
 Ocean Sunline
     - Unsplash: Alex Perez https://unsplash.com/@a2eorigins
+IG, Twitter, YouTube, and LinkedIn Logos
+    - Unsplash: Alexander Shatov https://unsplash.com/@alexbemore
