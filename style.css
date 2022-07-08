@@ -34,6 +34,13 @@ header {
     font-weight: 500;
     margin-right: auto;
     margin-left: 10rem;
+    height: 50px;
+    width: 50px;
+    border: 1px solid ;
+    background-image: url(./images/oceanwaves-alex-perez-OULPLsCI4mU-unsplash.jpeg);
+    background-size: cover;
+    border-radius: 30px;
+
 }
 
 .links {
