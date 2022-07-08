@@ -32,6 +32,7 @@ header {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 500;
+    margin-top: 10px;
     margin-right: auto;
     margin-left: 10rem;
     height: 50px;
@@ -48,10 +49,137 @@ header {
     margin-right: 10rem;
 }
 
-.link {
-    color: #E5E7EB;
-    font-size: 18px;
-    padding-left: 2rem;
+.link1,
+.link2,
+.link3,
+.link4 {
+    /* color: #E5E7EB; */
+    font-size: 24px;
+    padding-left: 3rem;
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+    border-radius: 200px;
+    border: 1px solid;
+    border-color: #191b21;
+}
+
+
+
+.link1 {
+    background-image: url(./images/iglogo-alexander-shatov-71Qk8ODIBko-unsplash.jpeg);
+    padding-right: 30px;
+    width: 100%;
+}
+
+@-webkit-keyframes link1 {
+    to {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+@keyframes link1 {
+    to {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+.link1,
+.link2,
+.link3,
+.link4 {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 100px rgba(255, 255, 255, 0);
+}
+
+.link1:hover,
+.link1:focus,
+.link1:active,
+.link2:hover,
+.link2:focus,
+.link2:active,
+.link3:hover,
+.link3:focus,
+.link3:active,
+.link4:hover,
+.link4:focus,
+.link4:active {
+    -webkit-animation-name: link1, link2,link3, link4;
+    animation-name: link1, link2, link3, link4;
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+.link2 {
+    background-image: url(./images/twitter-alexander-shatov-k1xf2D7jWUs-unsplash.jpeg);
+    padding-right: 30px;
+    width: 100%;
+}
+
+@-webkit-keyframes link2 {
+    to {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+@keyframes link2 {
+    to {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+.link3 {
+    background-image: url(./images/yt-alexander-shatov-niUkImZcSP8-unsplash.jpeg);
+    padding-right: 30px;
+    width: auto;
+}
+
+@-webkit-keyframes link3 {
+    to {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+@keyframes link3 {
+    to {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+.link4 {
+    background-image: url(./images/linkedin-alexander-shatov-9Zjd7PE_FRM-unsplash.jpeg);
+    padding-right: 30px;
+    width: auto;
+}
+
+@-webkit-keyframes link4 {
+    to {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+@keyframes link4 {
+    to {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
 }
 
 .content {
