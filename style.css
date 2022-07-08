@@ -49,11 +49,10 @@ header {
     margin-right: 10rem;
 }
 
-.link1,
-.link2,
-.link3,
-.link4 {
-    /* color: #E5E7EB; */
+.ig,
+.twitter,
+.yt,
+.lnkin {
     font-size: 24px;
     padding-left: 3rem;
     margin: 10px;
@@ -67,30 +66,30 @@ header {
 
 
 
-.link1 {
+.ig {
     background-image: url(./images/iglogo-alexander-shatov-71Qk8ODIBko-unsplash.jpeg);
     padding-right: 30px;
     width: 100%;
 }
 
-@-webkit-keyframes link1 {
+@-webkit-keyframes ig {
     to {
         -webkit-transform: scale(1.2);
         transform: scale(1.2);
     }
 }
 
-@keyframes link1 {
+@keyframes ig {
     to {
         -webkit-transform: scale(1.2);
         transform: scale(1.2);
     }
 }
 
-.link1,
-.link2,
-.link3,
-.link4 {
+.ig,
+.twitter,
+.yt,
+.lnkin {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -98,20 +97,16 @@ header {
     box-shadow: 0 0 100px rgba(255, 255, 255, 0);
 }
 
-.link1:hover,
-.link1:focus,
-.link1:active,
-.link2:hover,
-.link2:focus,
-.link2:active,
-.link3:hover,
-.link3:focus,
-.link3:active,
-.link4:hover,
-.link4:focus,
-.link4:active {
-    -webkit-animation-name: link1, link2,link3, link4;
-    animation-name: link1, link2, link3, link4;
+.ig:hover,
+.ig:active,
+.twitter:hover,
+.twitter:active,
+.yt:hover,
+.yt:active,
+.lnkin:hover,
+.lnkin:active {
+    -webkit-animation-name: ig, twitter, yt, lnkin;
+    animation-name: ig,twitter,yt,lnkin;
     -webkit-animation-duration: .5s;
     animation-duration: .5s;
     -webkit-animation-timing-function: linear;
@@ -122,60 +117,60 @@ header {
     animation-direction: alternate;
 }
 
-.link2 {
+.twitter {
     background-image: url(./images/twitter-alexander-shatov-k1xf2D7jWUs-unsplash.jpeg);
     padding-right: 30px;
     width: 100%;
 }
 
-@-webkit-keyframes link2 {
+@-webkit-keyframes twitter {
     to {
         -webkit-transform: scale(1.2);
         transform: scale(1.2);
     }
 }
 
-@keyframes link2 {
+@keyframes twitter {
     to {
         -webkit-transform: scale(1.2);
         transform: scale(1.2);
     }
 }
 
-.link3 {
+.yt {
     background-image: url(./images/yt-alexander-shatov-niUkImZcSP8-unsplash.jpeg);
     padding-right: 30px;
     width: auto;
 }
 
-@-webkit-keyframes link3 {
+@-webkit-keyframes yt {
     to {
         -webkit-transform: scale(1.2);
         transform: scale(1.2);
     }
 }
 
-@keyframes link3 {
+@keyframes yt {
     to {
         -webkit-transform: scale(1.2);
         transform: scale(1.2);
     }
 }
 
-.link4 {
+.lnkin {
     background-image: url(./images/linkedin-alexander-shatov-9Zjd7PE_FRM-unsplash.jpeg);
     padding-right: 30px;
     width: auto;
 }
 
-@-webkit-keyframes link4 {
+@-webkit-keyframes lnkin {
     to {
         -webkit-transform: scale(1.2);
         transform: scale(1.2);
     }
 }
 
-@keyframes link4 {
+@keyframes lnkin {
     to {
         -webkit-transform: scale(1.2);
         transform: scale(1.2);
@@ -224,7 +219,7 @@ a.button1 {
     transition: all .2s ease-in-out;
 }
 
-a:hover {
+a.jp:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
@@ -330,7 +325,7 @@ div.section3 {
     min-height: 50vh;
 }
 
-a {
+a.jp {
     text-decoration: none;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
